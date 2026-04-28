@@ -6,7 +6,7 @@ import "../index.css";
 export default function LikeIcon() {
   const [isLiked, setIsLiked] = useState(false);
   const onTap = () => {
-    setIsLiked(true);
+    setIsLiked((prev) => !prev);
   };
   return (
     <view className="like-icon" bindtap={onTap}>
