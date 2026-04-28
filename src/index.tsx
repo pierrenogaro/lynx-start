@@ -3,9 +3,9 @@ import '@lynx-js/react/debug'
 import { root } from '@lynx-js/react'
 
 import './index.css'
-import AddAutoScroll from './AddAutoScroll/index.js'
+import AddNiceScrollBar from './AddNiceScrollbar/index.js'
 
-root.render(<AddAutoScroll />)
+root.render(<AddNiceScrollBar />)
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
