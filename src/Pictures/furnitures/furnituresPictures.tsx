@@ -1,19 +1,3 @@
-import pic0 from "./0.png";
-import pic1 from "./1.png";
-import pic10 from "./10.png";
-import pic11 from "./11.png";
-import pic12 from "./12.png";
-import pic13 from "./13.png";
-import pic14 from "./14.png";
-import pic2 from "./2.png";
-import pic3 from "./3.png";
-import pic4 from "./4.png";
-import pic5 from "./5.png";
-import pic6 from "./6.png";
-import pic7 from "./7.png";
-import pic8 from "./8.png";
-import pic9 from "./9.png";
-
 export interface Picture {
   src: string;
   width: number;
@@ -22,77 +6,77 @@ export interface Picture {
 
 export const furnituresPicturesSubArray: Picture[] = [
   {
-    src: pic0,
+    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
     width: 512,
     height: 429,
   },
   {
-    src: pic1,
+    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
     width: 511,
     height: 437,
   },
   {
-    src: pic2,
+    src: "https://toktok.pierrenogaro.com/pierrot.png",
     width: 1024,
     height: 1589,
   },
   {
-    src: pic3,
+    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
     width: 510,
     height: 418,
   },
   {
-    src: pic4,
+    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
     width: 509,
     height: 438,
   },
   {
-    src: pic5,
+    src: "https://toktok.pierrenogaro.com/pierrot.png",
     width: 1024,
     height: 1557,
   },
   {
-    src: pic6,
+    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
     width: 509,
     height: 415,
   },
   {
-    src: pic7,
+    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
     width: 509,
     height: 426,
   },
   {
-    src: pic8,
+    src: "https://toktok.pierrenogaro.com/pierrot.png",
     width: 1024,
     height: 1544,
   },
   {
-    src: pic9,
+    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
     width: 510,
     height: 432,
   },
   {
-    src: pic10,
+    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
     width: 1024,
     height: 1467,
   },
   {
-    src: pic11,
+    src: "https://toktok.pierrenogaro.com/pierrot.png",
     width: 1024,
     height: 1545,
   },
   {
-    src: pic12,
+    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
     width: 512,
     height: 416,
   },
   {
-    src: pic13,
+    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
     width: 1024,
     height: 1509,
   },
   {
-    src: pic14,
+    src: "https://toktok.pierrenogaro.com/pierrot.png",
     width: 512,
     height: 411,
   },
