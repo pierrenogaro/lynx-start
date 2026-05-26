@@ -8,8 +8,10 @@ export default function LikeImageCard(props: { picture: Picture }) {
   return (
     <view className="picture-wrapper">
       <image
-        style={{ width: "100%", aspectRatio: picture.width / picture.height }}
         src={picture.src}
+        style={{ width: "100%", aspectRatio: picture.width / picture.height }}
+        autoplay={true}
+        loop-count={0}
       />
       <LikeIcon />
     </view>

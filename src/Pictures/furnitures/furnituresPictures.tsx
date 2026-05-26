@@ -8,34 +8,25 @@ const BUCKET_BASE_URL = "https://summits-app-images.fr-par-1.linodeobjects.com";
 
 export const furnituresPicturesSubArray: Picture[] = [
   {
-    src: `${BUCKET_BASE_URL}/posts/photo-6a0cb8faa2cdd714733408.jpg`,
+    src: `${BUCKET_BASE_URL}/videos/test_video.webp`,
     width: 1280,
-    height: 1707,
+    height: 1280,
   },
   {
-    src: `${BUCKET_BASE_URL}/posts/photo-6a0f62c2d16c4226328370.jpg`,
+    src: `${BUCKET_BASE_URL}/videos/video2.webp`,
     width: 1280,
-    height: 2273,
+    height: 1280,
+
   },
   {
-    src: `${BUCKET_BASE_URL}/posts/photo-6a0f6bbe15b7a164165211.jpg`,
+    src: `${BUCKET_BASE_URL}/videos/video3.webp`,
     width: 1280,
-    height: 960,
+    height: 1280,
   },
   {
-    src: `${BUCKET_BASE_URL}/posts/photo-6a132c8731556749636296.jpg`,
+    src: `${BUCKET_BASE_URL}/videos/video4.webp`,
     width: 1280,
-    height: 960,
-  },
-  {
-    src: `${BUCKET_BASE_URL}/posts/photo-6a1364c79d9b9567641853.jpg`,
-    width: 1280,
-    height: 1828,
-  },
-  {
-    src: `${BUCKET_BASE_URL}/posts/photo-6a142ddb459e6166305302.jpg`,
-    width: 1280,
-    height: 720,
+    height: 1280,
   },
 ];
 
