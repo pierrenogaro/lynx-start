@@ -4,81 +4,38 @@ export interface Picture {
   height: number;
 }
 
+const BUCKET_BASE_URL = "https://summits-app-images.fr-par-1.linodeobjects.com";
+
 export const furnituresPicturesSubArray: Picture[] = [
   {
-    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
-    width: 512,
-    height: 429,
+    src: `${BUCKET_BASE_URL}/posts/photo-6a0cb8faa2cdd714733408.jpg`,
+    width: 1280,
+    height: 1707,
   },
   {
-    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
-    width: 511,
-    height: 437,
+    src: `${BUCKET_BASE_URL}/posts/photo-6a0f62c2d16c4226328370.jpg`,
+    width: 1280,
+    height: 2273,
   },
   {
-    src: "https://toktok.pierrenogaro.com/pierrot.png",
-    width: 1024,
-    height: 1589,
+    src: `${BUCKET_BASE_URL}/posts/photo-6a0f6bbe15b7a164165211.jpg`,
+    width: 1280,
+    height: 960,
   },
   {
-    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
-    width: 510,
-    height: 418,
+    src: `${BUCKET_BASE_URL}/posts/photo-6a132c8731556749636296.jpg`,
+    width: 1280,
+    height: 960,
   },
   {
-    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
-    width: 509,
-    height: 438,
+    src: `${BUCKET_BASE_URL}/posts/photo-6a1364c79d9b9567641853.jpg`,
+    width: 1280,
+    height: 1828,
   },
   {
-    src: "https://toktok.pierrenogaro.com/pierrot.png",
-    width: 1024,
-    height: 1557,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
-    width: 509,
-    height: 415,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
-    width: 509,
-    height: 426,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierrot.png",
-    width: 1024,
-    height: 1544,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
-    width: 510,
-    height: 432,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
-    width: 1024,
-    height: 1467,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierrot.png",
-    width: 1024,
-    height: 1545,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierre-mountains.png",
-    width: 512,
-    height: 416,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierre-nogaro.jpeg",
-    width: 1024,
-    height: 1509,
-  },
-  {
-    src: "https://toktok.pierrenogaro.com/pierrot.png",
-    width: 512,
-    height: 411,
+    src: `${BUCKET_BASE_URL}/posts/photo-6a142ddb459e6166305302.jpg`,
+    width: 1280,
+    height: 720,
   },
 ];
 
